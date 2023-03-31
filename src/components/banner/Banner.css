@@ -14,6 +14,9 @@
     padding-bottom: 0.3rem;
 
 }
+.banner-buttons{
+    margin-top: 10px;
+}
 .button {
     color: white;
     outline: none;
@@ -27,11 +30,15 @@
     background-color: rgba(51, 51, 51, .5);
     cursor: pointer;
     margin-right: 1rem;
+    width: 150px;
+    height: 40px;
 }
 .button:hover{
     color: black;
     background-color: #e6e6e6;
-
+}
+.button span {
+    font-size: 20px;
 }
 .description {
     width: 45rem;

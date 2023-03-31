@@ -18,11 +18,11 @@ function Banner(){
             backgroundImage: `url(${movie ? imageUrl + movie.backdrop_path : ""})` }} className='banner'>
             <div className='content'>
                 <h1 className='movie-name'>{movie ? movie.original_title : ""}</h1>
-                <div className='banner-buttons'>
-                    <button className='button'>Play</button>
-                    <button className='button'>My list</button>
-                </div>
                 <h1 className='description'>{movie ? movie.overview : ""}</h1>
+                <div className='banner-buttons'>
+                    <button className='button'><i class="fa-solid fa-play"></i>  Play</button>
+                    <button className='button'><i class="fa-solid fa-circle-info"></i> More info</button>
+                </div>
             </div>
             <div className="fade">
                 
